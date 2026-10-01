@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Travel Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo" data-tooltip="Your journey starts here!">
+      ✈ Travelly
+    </a>
+
+    <nav>
+      <a href="#destinations" data-tooltip="Explore beautiful places">
+        Destinations
+      </a>
+      <a href="#tips" data-tooltip="Helpful tips for your next trip">
+        Travel Tips
+      </a>
+      <a href="#about" data-tooltip="Discover the world with us">
+        About
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="eyebrow">✦ EXPLORE THE WORLD ✦</span>
+      <h1>Every journey<br>begins with a <span>dream.</span></h1>
+      <p>
+        Discover amazing destinations, find travel inspiration,
+        and let little details guide your next adventure.
+      </p>
+      <a class="explore-btn" href="#destinations"
+         data-tooltip="Click to discover your next adventure">
+        Explore Destinations ↓
+      </a>
+    </section>
+
+    <section class="destinations" id="destinations">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOUR NEXT ADVENTURE</span>
+          <h2>Popular Destinations</h2>
+        </div>
+        <p>Hover over a destination to reveal a little secret!</p>
+      </div>
+
+      <div class="destination-grid">
+
+        <article class="destination-card">
+          <div class="destination-image paris"
+               data-tooltip="The City of Light ✨">
+            <span class="country-tag">FRANCE</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>Paris, France</h3>
+            <p>Romance, art &amp; culture</p>
+            <div class="card-footer">
+              <span>📍 Europe</span>
+              <span class="info"
+                    data-tooltip="Best time to visit: April to June">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <div class="destination-image japan"
+               data-tooltip="A perfect blend of old and new 🌸">
+            <span class="country-tag">JAPAN</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>Kyoto, Japan</h3>
+            <p>Tradition, temples &amp; nature</p>
+            <div class="card-footer">
+              <span>📍 Asia</span>
+              <span class="info"
+                    data-tooltip="Best time to visit: March to May">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <div class="destination-image santorini"
+               data-tooltip="White houses and endless blue views 🌊">
+            <span class="country-tag">GREECE</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>Santorini, Greece</h3>
+            <p>Sunsets, beaches &amp; relaxation</p>
+            <div class="card-footer">
+              <span>📍 Europe</span>
+              <span class="info"
+                    data-tooltip="Best time to visit: May to October">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <div class="destination-image bali"
+               data-tooltip="Find your tropical paradise 🌴">
+            <span class="country-tag">INDONESIA</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>Bali, Indonesia</h3>
+            <p>Adventure, beaches &amp; wellness</p>
+            <div class="card-footer">
+              <span>📍 Asia</span>
+              <span class="info"
+                    data-tooltip="Best time to visit: April to October">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <div class="destination-image newyork"
+               data-tooltip="The city that never sleeps 🗽">
+            <span class="country-tag">USA</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>New York, USA</h3>
+            <p>City life, food &amp; entertainment</p>
+            <div class="card-footer">
+              <span>📍 North America</span>
+              <span class="info"
+                    data-tooltip="Best time to visit: April to June">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <div class="destination-image swiss"
+               data-tooltip="A mountain escape awaits you 🏔️">
+            <span class="country-tag">SWITZERLAND</span>
+            <span class="heart">♡</span>
+          </div>
+          <div class="card-content">
+            <h3>Swiss Alps</h3>
+            <p>Mountains, skiing &amp; fresh air</p>
+            <div class="card-footer">
+              <span>📍 Europe</span>
+              <span class="info"
+                    data-tooltip="Best time: December to March for skiing">
+                ⓘ Best season
+              </span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="tips" id="tips">
+      <span class="eyebrow">TRAVEL SMARTER</span>
+      <h2>Little Tips, Big Adventures</h2>
+      <p class="tips-intro">
+        A few simple things can make your trip even better.
+        Hover over each icon to learn more!
+      </p>
+
+      <div class="tips-grid">
+        <div class="tip" data-tooltip="Keep digital and printed copies of important documents.">
+          <div class="tip-icon">🛂</div>
+          <h3>Stay Prepared</h3>
+          <p>Keep your documents organized.</p>
+        </div>
+
+        <div class="tip" data-tooltip="Learning a few local phrases can make a big difference.">
+          <div class="tip-icon">🗣️</div>
+          <h3>Learn the Language</h3>
+          <p>Connect with local people.</p>
+        </div>
+
+        <div class="tip" data-tooltip="Reusable bottles help you stay hydrated and reduce waste.">
+          <div class="tip-icon">💧</div>
+          <h3>Stay Hydrated</h3>
+          <p>Bring a reusable water bottle.</p>
+        </div>
+
+        <div class="tip" data-tooltip="Leave room for unexpected discoveries and new experiences.">
+          <div class="tip-icon">📸</div>
+          <h3>Enjoy the Moment</h3>
+          <p>Capture memories along the way.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>The world is waiting for you.</h2>
+      <p>
+        Discover new places, meet new people, and make
+        every journey a story worth telling.
+      </p>
+      <a href="#destinations" class="explore-btn"
+         data-tooltip="Start exploring the destinations above">
+        Start Exploring ✈
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>✈ Travelly · Explore More, Worry Less</p>
+    <span data-tooltip="Made with HTML and CSS only">CSS Tooltip Project · 2026</span>
+  </footer>
+
+</body>
+</html>
